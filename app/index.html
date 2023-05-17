@@ -28,7 +28,7 @@
                     return Controller.extend("PreviewController", {
                         onInit: function () {
 
-                            const data = {"Services":[{"ServiceName":"RiskManagement2Service","DetailsURL":"./service/RiskManagement2/","Metadata":"./service/RiskManagement2/$metadata","Entities":[{"Name":"Risks","URL":"./service/RiskManagement2/Risks","FioriURL":"$fiori-preview/RiskManagement2Service/Risks#preview-app"},{"Name":"Mitigations","URL":"./service/RiskManagement2/Mitigations","FioriURL":"$fiori-preview/RiskManagement2Service/Mitigations#preview-app"}],"EntitiesCount":2}]}
+                            const data = {"Services":[{"ServiceName":"RiskManagement2Service","DetailsURL":"./service/RiskManagement2/","Metadata":"./service/RiskManagement2/$metadata","Entities":[{"Name":"Risks","URL":"./service/RiskManagement2/Risks","FioriURL":"$fiori-preview/RiskManagement2Service/Risks#preview-app"},{"Name":"Mitigations","URL":"./service/RiskManagement2/Mitigations","FioriURL":"$fiori-preview/RiskManagement2Service/Mitigations#preview-app"},{"Name":"BusinessPartnerSet","URL":"./service/RiskManagement2/BusinessPartnerSet","FioriURL":"$fiori-preview/RiskManagement2Service/BusinessPartnerSet#preview-app"}],"EntitiesCount":3}]}
                             this.getView().setModel(new JSONModel(data));
                         }
                     });

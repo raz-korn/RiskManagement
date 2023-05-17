@@ -1,0 +1,20 @@
+[
+	{
+		"entity": "BusinessPartnerSet",
+		"namespace": "ZGWSAMPLE_BASIC",
+		"file": "/home/user/projects/RiskManagement2/srv/external/data/ZGWSAMPLE_BASIC-BusinessPartnerSet.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Mitigations",
+		"namespace": "RiskManagement2",
+		"file": "/home/user/projects/RiskManagement2/db/data/RiskManagement2-Mitigations.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Risks",
+		"namespace": "RiskManagement2",
+		"file": "/home/user/projects/RiskManagement2/db/data/RiskManagement2-Risks.csv",
+		"isFixed": false
+	}
+]
