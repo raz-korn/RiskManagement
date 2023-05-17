@@ -1,5 +1,7 @@
 namespace RiskManagement2;
 
+using { ZGWSAMPLE_BASIC } from '../srv/external/ZGWSAMPLE_BASIC.cds';
+
 using
 {
     Country,
@@ -23,6 +25,7 @@ entity Risks : managed
     impact : Integer;
     criticality : String(100);
     miti : Association to one Mitigations;
+    supplier : Association to one ZGWSAMPLE_BASIC.BusinessPartnerSet;
 }
 
 entity Mitigations : managed
